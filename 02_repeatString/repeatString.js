@@ -1,5 +1,5 @@
 const repeatString = function(word, num) {
-    string temp = '';
+    temp = "";
     for (i=0;i<num;i++) {
         temp = temp + word;
     }
