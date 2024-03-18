@@ -1,7 +1,7 @@
-const repeatString = function(word, num) {
+const repeatString = function(string, num) {
     temp = "";
     for (i=0;i<num;i++) {
-        temp = temp + word;
+        temp = temp + string;
     }
     return temp;
 };
