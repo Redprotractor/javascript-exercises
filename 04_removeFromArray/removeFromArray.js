@@ -1,6 +1,6 @@
 const removeFromArray = function(arr, num) {
     temp = [];
-    for (int i = 0; i < arr.length; i++) {
+    for (i = 0; i < arr.length; i++) {
         if (i==num) {
             continue;
         }
