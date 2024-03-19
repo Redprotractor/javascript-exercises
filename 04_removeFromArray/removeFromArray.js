@@ -1,14 +1,11 @@
-const removeFromArray = function(arr, num) {
+const removeFromArray = function(arr, ...args) {
     temp = [];
-    for (i = 0; i < arr.length; i++) {
-        if (i==num) {
-            continue;
+    arr.forEach((it) => {
+        if (!args.includes(it)) {
+            temp.push(it);
         }
-        else {
-            temp.push(arr[i]);
-        }
-    }
-    return temp.toString();
+    });
+    return temp;
 };
 
 // Do not edit below this line
